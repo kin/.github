@@ -1,0 +1,13 @@
+{
+  "name": "Starter Workflow Example",
+  "description": "Kin starter workflow example.",
+  "iconName": "kin",
+  "categories": [
+    "Rails"
+  ],
+  "filePatterns": [
+    "package.json$",
+    "^Dockerfile",
+    ".*\\.md$"
+  ]
+}

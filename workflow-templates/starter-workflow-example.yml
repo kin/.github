@@ -1,4 +1,4 @@
-name: Octo Organization CI
+name: Starter Workflow Example
 
 on:
   push:
