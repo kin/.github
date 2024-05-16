@@ -1,13 +1,5 @@
 {
   "name": "Starter Workflow Example",
   "description": "Kin starter workflow example.",
-  "iconName": "kin",
-  "categories": [
-    "Go"
-  ],
-  "filePatterns": [
-    "package.json$",
-    "^Dockerfile",
-    ".*\\.md$"
-  ]
+  "iconName": "kin"
 }
