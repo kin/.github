@@ -3,7 +3,7 @@
   "description": "Kin starter workflow example.",
   "iconName": "kin",
   "categories": [
-    "Rails"
+    "Go"
   ],
   "filePatterns": [
     "package.json$",
