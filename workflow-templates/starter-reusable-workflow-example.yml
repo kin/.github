@@ -1,0 +1,19 @@
+name: Start Workflow Calls a reusable workflow
+
+on:
+  - push
+  - workflow_dispatch
+
+jobs:
+  call-workflow:
+    uses: ${{ vars.ACTION_REPOSITORY_PATH }}/.github/workflows/${{  vars.ACTION_WORKFLOW_A }}
+
+  call-workflow-passing-data:
+    permissions:
+      contents: read
+      pull-requests: write
+    uses: ${{ vars.ACTION_REPOSITORY_PATH }}/.github/workflows/${{  vars.ACTION_WORKFLOW_B }}
+    with:
+      config-path: ${{ vars.CONFIG_PATH }}
+    secrets:
+      token: ${{ secrets.GITHUB_TOKEN }}

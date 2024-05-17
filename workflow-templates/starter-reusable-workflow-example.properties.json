@@ -1,0 +1,5 @@
+{
+  "name": "Start Workflow Calls a reusable workflow",
+  "description": "Kin starter workflow example that calls a reusable workflow.",
+  "iconName": "kin"
+}
